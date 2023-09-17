@@ -1,0 +1,87 @@
+/* ayyyyy */
+
+body {
+  background-color: rgb(255, 244, 240);
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url(Pizza_Tower.jpeg);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+.imgbox {
+  border: 20px solid #000000;
+  padding: 15px;
+  margin: 10px;
+  background-color: #fef45f;
+}
+
+.headers {
+    background-color: #bad0df;
+  color: rgb(224, 116, 15);
+  font-style: italic;
+  font-weight: normal;
+}
+
+.headers3 {
+  background-color: #bad0df;
+  color: rgb(224, 116, 15);
+font-style: italic;
+font-weight: normal;
+text-align: center;
+}
+
+.specialp {
+    color: #063e06;
+
+    background-color: rgb(211, 238, 199);
+  }
+
+  .specialjustify {
+    color: #063e06;
+
+    background-color: rgb(211, 238, 199);
+
+    text-align: justify;
+  }
+
+  #specialid {
+    color: orangered;
+    background-color: rgb(255, 219, 244);
+    text-align: center;
+  }
+
+  .fancyul {
+    color: #424405;
+    background-color: rgb(189, 183, 255);
+    text-align: justify;
+  }
+
+  .spanstyle {
+    color: darkslategray;
+    background-color: rgb(249, 248, 191);
+    text-decoration: underline;
+  }
+
+  #divivi {
+    color: maroon;
+    background-color: rgb(255, 219, 244);
+    text-align: center;
+  }
+
+  #divivis {
+    color: maroon;
+    background-color: rgb(255, 219, 244);
+    text-align: justify;
+  }
+
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+}
