@@ -1,0 +1,44 @@
+/* heyo */
+
+a:link {
+color: green;
+text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+  } 
+
+.div1 {
+    background-color: rgb(150, 166, 239);
+}
+
+.poison {
+    color: white;
+}
+
+.pompeii {
+    color: blue;
+}
+
+.span1 {
+    color: orange;
+}
+
+.inferno {
+    background-color: yellow; 
+}
+
+.redtext {
+    color: red;
+}
+
+.father {
+    color: yellow;
+    background-color: green;
+}
+
+.ligreen {
+    background-color: lightgreen;
+}
