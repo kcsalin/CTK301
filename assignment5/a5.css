@@ -1,0 +1,90 @@
+/* top */
+
+body {
+    background-image: url(a5bg.png);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    border: 1px solid darkblue;
+    width: 150px;
+    margin: 10px;
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+}
+
+/* headers */
+
+header {
+    font-family: Helvetica, sans-serif;
+    font-weight: normal;
+    background-color: white;
+}
+
+.h2 {
+    font-weight: bold;
+    border-bottom: 5px solid black;
+    padding-bottom: 10px;
+}
+
+.h1 {
+    font-weight: normal;
+    padding: 20px;
+}
+
+/* paragraphs */
+
+div {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+p {
+    text-align: justify;
+}
+
+footer p {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    padding: 40px;
+}
+
+/* links */
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+nav li a:hover {
+    background-color: blue
+}
+
+div p a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+div p a {
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
