@@ -1,0 +1,116 @@
+/* colors 
+lighter green: 606c38
+green: 505c38
+dark green (text): 283618
+beige: fefae0
+orange: dda15e
+dark orange: bc6c25 */
+
+
+body {
+  background-color: #505c38;
+}
+
+.socialsimg {
+  width: 50px;
+  float: right;
+}
+
+.socials {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+/* boxes/grid */
+#wrapper {
+  margin: 24px auto;
+  width: 1200px;
+  padding-bottom: 24px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto 75px;
+  grid-column-gap: 24px;
+  /*grid-column: span 4; */
+}
+
+/* the rest */
+/* headers*/
+.Portfolio {
+  background-color: #fefae0;
+  text-align: center;
+  width: 250px;
+  padding: 10px;
+  color: #283618;
+}
+
+/* nav*/
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column: span 12;
+}
+
+.navgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  padding: 10px;
+  margin: 0px 1em;
+  width: 150px; 
+  display: block;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #dda15e;
+  color: #283618;
+}
+
+/*.leftnav {
+  margin-left: 0px;
+  }
+  
+  .rightnav {
+    margin-right: 0px;
+  }*/
+
+nav li a:hover {
+  background-color: #fefae0;
+}
+
+nav li {
+  display: inline-block
+}
+
+/* body */
+main{
+  grid-column: span 9;
+  padding: 20px;
+  background-color: #fefae0;
+}
+
+.imgbox {
+  width: 400px;
+  height: auto;
+}
+
+p {
+  color: #283618;
+}
+
+footer {
+  grid-column: span 12;
+  padding: 10px;
+  background-color: #606c38;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #fefae0;
+  text-align: center;
+}
