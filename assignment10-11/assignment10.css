@@ -1,0 +1,160 @@
+/* colors 
+lighter green: 606c38
+green: 505c38
+dark green (text): 283618
+beige: fefae0
+orange: dda15e
+dark orange: bc6c25 */
+
+
+body {
+  background-color: #505c38;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.instagram {
+  color:#dda15e;
+  float: right;
+  margin-right: 200px;
+}
+
+/* boxes/grid */
+#wrapper {
+  margin: 24px auto;
+  width: 900px;
+  padding-bottom: 24px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: auto auto 75px;
+  grid-column-gap: 24px;
+  /*grid-column: span 4; */
+}
+
+/* the rest */
+/* headers*/
+.Portfolio {
+  background-color: #fefae0;
+  text-align: center;
+  width: 250px;
+  padding: 10px;
+  color: #283618;
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+header {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.sontitle {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  background-color: white;
+  width: 250px;
+  padding: 20px;
+  color: black;
+  width: 40%;
+  margin: 0 auto;
+  box-shadow: 10px 10px 10px #999; /* x, y, blur, color */
+}
+
+.Portfolio a {
+  text-decoration: none;
+  color: #283618;
+}
+
+/* nav*/
+nav {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column: span 12;
+}
+
+.navgrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li a {
+  padding: 8px;
+  margin: 0px;
+  margin-right: 78.5px;
+  width: 150px; 
+  display: block;
+  list-style-type: none;
+  text-decoration: none;
+  background-color: #dda15e;
+  color: #283618;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+} 
+
+/*change color of this for one tab in multiple css vvv */
+.firsttab a {
+  background-color: #fefae0;
+}
+
+nav li a:hover {
+  background-color: #fefae0;
+}
+
+nav li {
+  display: inline-block
+}
+
+/* body */
+main{
+  grid-column: span 12;
+  padding: 50px;
+  background-color: #fefae0;
+}
+
+.imgbox {
+  width: 400px;
+  height: auto;
+}
+
+.imgbox2 {
+  width: 300px;
+  height: auto;
+}
+
+p {
+  color: #283618;
+  text-align: justify;
+  padding: 10px;
+}
+
+.currentboxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column: span 12;
+  margin: 24px auto;
+}
+
+.currenttext {
+  background-color: white;
+  width: 300px;
+  margin: 10px;
+}
+
+footer {
+  grid-column: span 12;
+  padding: 10px;
+  background-color: #606c38;
+  margin-top: 20px;
+}
+
+footer p {
+  color: #fefae0;
+  text-align: center;
+}
