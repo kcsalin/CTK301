@@ -134,10 +134,14 @@ main{
 .imgbox {
   width: 400px;
   height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .imgbox2 {
-  width: 300px;
+  width: 400px;
   height: auto;
 }
 
@@ -156,7 +160,7 @@ p {
 
 .currenttext {
   background-color: white;
-  width: 300px;
+  width: 350px;
   margin: 10px;
 }
 
@@ -167,14 +171,14 @@ p {
 
 footer {
   grid-column: span 12;
-  padding: 10px;
-  background-color: #606c38;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 footer p {
   color: #fefae0;
   text-align: center;
+  background-color: #606c38;
+  padding: 10px;
 }
 
 /*carousel*/
